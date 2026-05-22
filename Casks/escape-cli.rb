@@ -4,22 +4,22 @@ cask "escape-cli" do
 
   on_macos do
     on_intel do
-      sha256 "4eddb7fe71c54c8440e1c9952a61ca6ddf7d9b526d51ffa6e3f17c74b0c57478"
+      sha256 "1865857e59ca15c35684c43955e56992374947f6f7443170ac1feff742478e17"
       url "https://github.com/Escape-Technologies/cli/releases/download/v#{version}/cli_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "b1cb5eb002fe12e6259e233131e6e0ce781de1ce4b5aa56e88c1b26662b138bb"
+      sha256 "e3275c04fe49b0ce14e4c4e70cf317e33b065a02b654f27b3c0583ddc779a0dd"
       url "https://github.com/Escape-Technologies/cli/releases/download/v#{version}/cli_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "a6494154801f45d48f2c47ca205fabbf8c6a0a1bdb2d8abf4589c8217fef6b62"
+      sha256 "92d3cd104f6e2ac7a175735acbf87dfed8c0add9a757f68b87ddf8ef0ac91841"
       url "https://github.com/Escape-Technologies/cli/releases/download/v#{version}/cli_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "0061ddfbc8d4988c974a717939b89894d9aeec458be0cfbd17353ce26ef6da89"
+      sha256 "7bed537dba1e9e019a55bacf1875050f197c92b5e4fe01163fdc19c01b296663"
       url "https://github.com/Escape-Technologies/cli/releases/download/v#{version}/cli_#{version}_linux_arm64.tar.gz"
     end
   end
